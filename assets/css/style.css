@@ -19,12 +19,11 @@ body {
     background-position: top center;
     background-repeat: no-repeat;
     background-size: cover;
-
+	 background-attachment: fixed;
 	}
 
 .wrapper {
 	width:960px;
-	z-index:999;
 
 	}
 
@@ -76,6 +75,10 @@ nav a {
 	color:#333;
 }
 	
+section {
+	min-height:400px;}
+	
+	
 .clearfix::after {
     content: "";
     clear: both;
@@ -86,8 +89,6 @@ nav a {
 		width:920px;
 		margin: 0 auto;
 		}
-
-
 
 .content {
 	width:920px;
